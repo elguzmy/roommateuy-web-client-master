@@ -1,0 +1,16 @@
+.main-banner{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 61px);
+    background-repeat: no-repeat;
+    /* background-image: url("https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200")!important; */
+    background-size: cover;
+    background-color: linear-gradient(
+        rgba(0, 0, 0, 18), 
+        rgba(0, 0, 0, 0.9)
+    )
+}
+
+.slider-frame{
+    pointer-events: none;
+}

@@ -1,0 +1,66 @@
+#user-listings-box h5{
+    padding-bottom: 40px;
+}
+
+.styles_modal__gNwvD{
+    height: 200px!important;
+    width: 28%!important;
+    padding: 35px 20px!important;
+    border-radius: 4px;
+}
+
+#add-listings{
+    color: #663399;
+    font-size: 16px;
+    background-color: unset;
+    border: 0;
+    cursor: pointer;
+}
+
+#icon-add-listings{
+    margin-right: 5px;
+}
+
+#user-add-listings-modal-box h5{
+    text-align: center;
+    color: darkblue;
+    margin: 0!important;
+}
+
+/* Buttoms */
+#add-room-listing, #add-roommate-listing{
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+}
+
+#user-add-listings-modal-box button{
+    width: 100%;
+    float: left;
+    background: none;
+    border: 0;
+    height: 40px;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#add-room-listing button{
+    background-color: #663399;
+} 
+
+#add-roommate-listing button{
+    background-color: lightslategray;
+}
+
+/* Modal Close button */
+svg.styles_closeIcon__1QwbI {
+    height: 22px;
+    fill: darkorchid;
+    margin-top: 5px;
+}
+
+svg.styles_closeIcon__1QwbI:hover {
+    fill: blue;
+}
+

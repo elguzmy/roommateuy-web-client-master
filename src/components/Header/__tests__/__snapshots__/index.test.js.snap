@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test:Header renders and matches snapshot 1`] = `
+<header>
+  <Container
+    tag="div"
+  >
+    <div
+      className="header-content"
+    >
+      <div
+        className="header-title text-center"
+      >
+        <h1>
+          Toolbox Application
+        </h1>
+      </div>
+    </div>
+  </Container>
+</header>
+`;

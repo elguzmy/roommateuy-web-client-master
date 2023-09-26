@@ -1,0 +1,21 @@
+#user-settings-h4{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#user-settings-box{
+    margin: 0 280px;
+    background-color: #FFF;
+    padding: 40px 60px;
+    padding-bottom: 36px;
+    border: 1px solid #7f7f7f69;
+    border-radius: 5px;
+}
+
+#user-settings-box form{
+    width: 100%;
+}
+
+#slc-user-notification, #slc-user-status{
+    display: inline-block;
+}

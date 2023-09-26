@@ -1,0 +1,144 @@
+.room-search-image{
+    width: 100%;
+    height: 140px;
+}
+
+.room-search-box {
+    margin-bottom: 40px;
+    border: 1px solid #bdc3c7;
+    background-color: white;
+}
+
+.room-search-price {
+    font-weight: 900;
+    font-size: 15px;
+    color: #216C2A;
+    margin-top: 5px;
+}
+
+.room-search-country-box{
+    position: absolute;
+    bottom: 11px;
+}
+
+.room-search-country {
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    color: mediumvioletred;
+    overflow: hidden;
+}
+
+.room-search-city {
+    left: 0;
+    position: absolute;
+    bottom: -5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: mediumvioletred;
+}
+
+.icon-home-room-search{
+    right: 0px;
+    top: -19px;
+    position: absolute;
+}
+
+.icon-favourite-room-search{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.room-search-drescription-box{
+    border-right: 1px solid #bdc3c7;
+    padding: 0;
+    padding-right: 15px;
+}
+
+.room-search-price-box {
+    margin-left: -15px;
+}
+
+.room-search-per-time {
+    margin-top: -22px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.room-search-room-type {
+    bottom: 27px;
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+}
+
+svg.svg-inline--fa.fa-star.fa-w-18.fa-1x.icon-favourite-room-search:hover {
+    color: mediumvioletred;
+    cursor: pointer;
+}
+
+.btn-view-room-search{
+    width: 80%;
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+input.btn-view-room-search:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.icon-calendar-room-search{    
+    height: 18px;
+    color: lightgrey;
+    margin-top: -10px;
+}
+
+.lbl-move-in-date {
+    font-size: 9px;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.room-search-move-in-date {
+    margin: 0;
+    font-size: 11px;
+}
+
+img.room-search-images {
+    height: 131px;
+    width: 100%;
+}
+
+.room-search-box .slider, .room-search-box  .default-room-image{
+    border-right: 1px solid #bdc3c7;
+    width: 100%;
+}
+
+.room-search-description {
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.room-search-headline {
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.isFavourite {
+    color: mediumvioletred;
+}
+
+.room-search-drescription-box svg path{
+    pointer-events: none;
+}

@@ -1,0 +1,25 @@
+#user-social-media-box{
+    padding: 10px 7px 10px 7px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#lbl-social-media{
+    margin-bottom: 15px;
+}
+
+#user-social-media-facebook{
+    font-size: 30px;
+}
+
+#add-social-media-box{
+    margin: 15px 0 10px 0;
+}
+
+#add-social-media{
+    font-size: 14px;
+    color: #663399;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}

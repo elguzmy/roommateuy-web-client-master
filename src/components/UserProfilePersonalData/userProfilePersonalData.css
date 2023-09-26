@@ -1,0 +1,45 @@
+#user-personal-data-box{
+    padding: 40px;
+    padding-left: 40px;
+    padding-bottom: 36px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.btn-save{
+    background-color: #663399!important;
+    border-color: #663399!important;
+    margin-top: 20px!important;
+}
+
+.btn-cancel{
+    background-color: #3d5b96!important;
+    border-color: #3d5b96!important;
+    margin-left: 20px!important;
+    margin-top: 20px!important;
+}
+
+.btn-save:focus, .btn-cancel:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+#user-personal-data-box .room-age-spec{
+    display: none;
+    z-index: 0;
+}
+
+#user-personal-data-box #add-room-specifications{
+    padding-top: 90px!important;
+}
+
+#user-personal-data-box .icon-about-me-box {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.profile-filters-box button.dropdown-toggle.btn.btn-secondary {
+    background-color: lightslategray;
+}

@@ -1,0 +1,93 @@
+#user-register-box{
+    margin-top: -49px;
+}
+.register-page .form{ 
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+.register-page #create-acount-form span p{ 
+    margin-top: -15px; 
+    font-size: 17px; 
+    font-family: helvetica; 
+    color: #FFF; 
+    font-weight: bold; 
+}
+
+.register-page #alert-user-register-confirmation{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.register-page .dropdown-gender{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    color: #8b8b8b;
+}
+
+.register-page #lbl-birth{
+    color: #FFF;
+    font-size: 17px;
+}
+
+/* DATE PICKER */
+.register-page .react-date-picker {
+    display: unset;
+}
+
+.register-page .Dropdown-option {
+    margin: 10px 0!important;
+}
+
+.register-page .Dropdown-option:last-child{
+    margin-bottom: 0!important;
+}
+
+.register-page .react-date-picker__wrapper {
+    display: flex;
+    border: thin solid gray;
+    background-color: #f2f2f2;
+    height: 55px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    color: #8b8b8b;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border: 0;
+}
+
+.register-page .react-date-picker__wrapper input{
+    padding: 0!important;
+    margin: 0!important;
+    margin-bottom: 15px;
+    border: 0;
+}
+
+.register-page .react-date-picker__inputGroup__input {
+    color: #8b8b8b;
+}
+
+.register-page .react-calendar {
+    margin-left: -50%;
+}
+
+/*************************************/
+
+/* #banner-user-register-page{ 
+    background-image: url("https://images.pexels.com/photos/67558/berlin-friednau-germany-building-sky-67558.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200")!important; 
+} */

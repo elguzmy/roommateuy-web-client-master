@@ -1,0 +1,185 @@
+h5{
+    color: lightslategray;
+}
+
+#search-filter-room-box{
+    width: 100%;
+    padding: 0 80px!important;
+    margin-top: 30px;
+}
+
+
+/* Search */
+input.form-control.txt-search-room {
+    height: 50px;
+}
+
+input.form-control.search-suggestion {
+    height: 40px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+/* Styles for wrapping the search box */
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    top: 31px;
+}
+
+/**************/
+
+#search-filter-room-box .input-range__track--active {
+    background: blue;
+}
+
+#search-filter-room-box .input-range__slider {
+    background: rebeccapurple;
+    border: rebeccapurple;
+}
+
+#search-filter-room-box .input-range__track{
+    background: #bdc3c7!important;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight::before {
+    border-right: 33px solid rebeccapurple;
+}
+
+.CalendarDay__selected_span, .CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+    background: rebeccapurple!important;
+    border: 1px double rebeccapurple!important;
+    color: #fff;
+}
+
+input.styled-component__StyledInput-sc-1dsackt-0.dEHJYu::placeholder{
+    padding-left: 15px;
+}
+
+#search-suggestion{
+    position: relative;
+    top: 42px;
+    width: 100%;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #FFF!important;
+    opacity: 1;
+}
+
+/* Range price */
+#price-range-min{
+    margin-right: 15px;    
+}
+
+#price-range-max, #price-range-min{
+    display: inline-block!important;
+    height: 50px;;
+}
+
+#search-filter-room-box input#your_unique_start_date_id, #search-filter-room-box input#your_unique_end_date_id {
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+#search-filter-room-box .DateRangePickerInput_arrow_svg {
+    height: 22px;
+    width: 22px;
+}
+
+/* Room type */
+#lbl-search-room-type, #lbl-room-age{
+    margin-top: 20px!important;
+}
+
+#slc-search-room-type{
+    height: 50px;
+}
+
+/* Age */
+.rangeslider__fill {
+    background-color: rebeccapurple!important;
+}
+
+/* Slims */
+.room-specification{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.search-filter-box {
+    padding: 0;
+    margin-left: 20px;
+}
+
+#search-filter-room-box svg#icon-search {
+    position: relative;
+    top: 41px;
+    left: 5px;
+    z-index: 9;
+    height: 26px;
+}
+
+#search-filter-room-box .address-autocomplete-input.form-control {
+    padding-left: 40px;
+}
+
+#search-filter-room-box .address-autocomplete-input.form-control::placeholder {
+    padding-left: 30px!important;
+}
+
+#search-filter-room-box #autocomplete-box{
+    margin-bottom: 21px;
+    padding-bottom: 15px;
+}
+
+#room-results {
+    width: 100%;
+}
+
+.room-results-loader-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.room-results-loader {
+    height: 50px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+#search-filter-room-box .icon-location-search {
+    font-size: 20px;
+    color: darkslateblue;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.remove-filters-btn-wrapper button {
+    background-color: lightslategray;
+    color: white;
+    border: white;
+    border-radius: 4px;
+    position: relative;
+    top: -65px;
+    left: 0px;
+}

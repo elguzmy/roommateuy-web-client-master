@@ -1,0 +1,15 @@
+.main-page-box{
+    margin-top: -49px;
+}
+#txt-search-room { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 60%; height: 55px; }
+
+/* Txt Search Room PlaceHolder */
+#txt-search-room::-webkit-input-placeholder { font-family: 'myFont', Arial, Helvetica, sans-serif; font-size: 18px; padding-left: 40px; }
+#txt-search-room:-ms-input-placeholder { font-family: 'myFont', Arial, Helvetica, sans-serif; font-size: 18px; padding-left: 40px; }
+#txt-search-room:-moz-placeholder { font-family: 'myFont', Arial, Helvetica, sans-serif; font-size: 18px; padding-left: 40px; }
+#txt-search-room::-moz-placeholder { font-family: 'myFont', Arial, Helvetica, sans-serif; font-size: 18px; padding-left: 40px; }
+
+div#main-search-box {
+    width: 100%;
+    padding: 0;
+}

@@ -1,0 +1,11 @@
+#btn-get-suggestion{
+    color: #663399;
+    font-size: 16px;
+    background-color: unset;
+    border: 0;
+    cursor: pointer;
+}
+
+#suggestion-results{
+    margin-top: 40px;
+}

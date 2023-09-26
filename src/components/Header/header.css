@@ -1,0 +1,39 @@
+h1{ 
+    display: inline; 
+    color: white; 
+    padding-top: 19px; 
+    font-size: 29px; 
+}
+
+header{ 
+    border-bottom: 2px solid rebeccapurple; 
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+header ul.ml-auto.navbar-nav .nav-item {
+    margin-top: 7px;
+}
+
+#facebook-login-span{ font-size: 13px; }
+
+/* Facebook login buttom */
+.btn-fb-authentication{ 
+    color: #38589a; 
+    border-radius: 5px; 
+    border: 1px solid rgb(59, 89, 152); 
+    box-shadow: none!important; 
+    padding: 5px 10px;
+}
+.btn-fb-authentication i.fa.fa-facebook {
+    color: #38589a;
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+.icon-megaphone {
+    margin-top: -2px;
+    margin-right: -10px;
+    margin-left: 5px;
+}

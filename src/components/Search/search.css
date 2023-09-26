@@ -1,0 +1,21 @@
+#search-room-box{
+    width: 100%!important;
+    max-width: 100%!important;
+    margin: 0 -15px;
+}
+
+.row-no-padding{
+    padding: 0!important;
+}
+
+.fixed-map{
+    position: fixed!important;
+    float: right;
+    right: 0;
+    top: 62px;
+    bottom: 0;
+}
+
+#search-room-box canvas {
+    width: 100%!important;
+}

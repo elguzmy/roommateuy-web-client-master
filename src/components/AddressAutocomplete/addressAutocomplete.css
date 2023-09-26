@@ -1,0 +1,49 @@
+.address-autocomplete-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.address-autocomplete-suggestions-wrapper {
+    position: absolute;
+    z-index: 9999;
+}
+
+.address-autocomplete-suggestions-wrapper,
+.address-autocomplete-suggestions {
+    width: 100%;
+}
+
+.suggestions-list-container {
+    width: 100%;
+}
+
+.suggestions-list {
+    list-style: none;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.suggestions-list-item {
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-align: left;
+    border: 1px solid rgb(206, 212, 218);
+    cursor: pointer;
+}
+
+.suggestions-list-item:hover {
+    background: #FAFAFA;
+}
+
+.suggestions-list-item-address {
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.address-autocomplete-input.form-control {
+    height: 50px;
+}

@@ -1,0 +1,23 @@
+.map-room-info-bubble-view-btn-container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+}
+.map-room-info-bubble-view-btn{
+    width: 100%;
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px 50px;
+    cursor: pointer;
+}
+
+input.map-room-info-bubble-view-btn:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}

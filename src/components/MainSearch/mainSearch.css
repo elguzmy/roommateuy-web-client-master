@@ -1,0 +1,84 @@
+#main-search-room-box{
+    text-align: center;
+    position: relative;
+    top: -380px;
+    height: 0px;
+    margin-bottom: -16px;
+}
+
+#main-search-room-box .txt-search-room{
+    width: 60%!important;
+    margin: 0 auto;
+    height: 70px!important;
+    padding-left: 60px;
+    border: 2px solid darkslategray;
+    border-radius: 0;
+}
+
+#main-search-room-box .has-search .form-control-feedback{ 
+    position: relative;
+    top: 115px;
+    left: 21%;
+    font-size: 25px;
+    color: rebeccapurple;
+}
+
+#main-search-room-box .search-suggestion input {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Botones */
+#btn-main-search-room{
+    margin-right: 2%;
+    background-color: rebeccapurple!important;
+    border: 1px solid rebeccapurple!important;
+}
+
+#btn-main-search-room:focus{
+    background-color: darkblue;
+}
+
+#btn-main-add-room{
+    color: rebeccapurple!important;
+    background-color: #FFF;
+    border: 2px solid rebeccapurple!important;
+}
+
+
+#btn-main-search-room, #btn-main-add-room{
+    width: 29%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#main-search-room-box .address-autocomplete-input.form-control {
+    width: 60%!important;
+    margin: 0 auto;
+    height: 60px!important;
+    padding-left: 60px;
+    border: 2px solid darkslategray;
+    border-radius: 0;
+}
+
+#main-search-room-box .address-autocomplete-input.form-control:focus {
+    border: 2px solid darkslategray!important;
+}
+
+#main-search-room-box .address-autocomplete-suggestions-wrapper {
+    width: 60%;
+    text-align: center!important;
+    position: relative!important;
+    margin: 0 auto;
+}
+
+#main-search-room-box #icon-search {
+    z-index: 99;
+    top: 75px;
+    left: 22%;
+    position: absolute;
+}

@@ -1,0 +1,85 @@
+#user-photograph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px !important;
+}
+
+#user-photograph-container {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#user-photograph-box{
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 400px;
+}
+
+#user-photograph-settings{
+    margin: 0 auto;
+}
+
+#user-photograph-settings a{
+    color: #663399;
+    font-size: 14px;
+}
+
+#edit-user-photos{
+    color: #3d5b96!important;
+}
+
+#user-photograph-file-input[type="file"] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#user-photograph-file-input[type="file"] + label {
+    background-color: lightslategray;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: background-color 0.3s;
+}
+
+#user-photograph-file-input[type="file"]:focus + label,
+#user-photograph-file-input[type="file"] + label:hover {
+    background-color: rebeccapurple;
+}
+
+#user-photograph-file-input[type="file"]:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+#user-photograph-file-input[type="file"] + label * {
+    pointer-events: none;
+}
+
+#user-photograph img {
+    max-height: 200px;
+    height: 200px;
+}
+
+.user-photograph-form-wrapper {
+    margin: auto;
+}

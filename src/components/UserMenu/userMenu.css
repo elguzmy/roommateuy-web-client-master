@@ -1,0 +1,47 @@
+#user-menu { 
+    margin-top: 10px!important; 
+}
+
+#user-menu button.dropdown-item{ 
+    font-size: 14px; 
+    color: rgba(0,0,0,.5);
+}
+
+/* Header menu icons */
+#user-menu .fa-lg { 
+    margin-left: -10px; 
+    margin-right: 10px; 
+}
+
+/* Header dropdownlist Menu  */
+ul.ml-auto.navbar-nav .nav-item{ 
+    margin-top: 15px;
+}
+
+/* Align Menu to header bottom */
+#user-menu .dropdown-menu.dropdown-menu-right.show { 
+    right: -15px;
+    top: 45px;
+    border-radius: 5px;
+}
+
+#icon-user-menu {
+    float: right;
+    position: relative;
+    top: -4px;
+    margin-right: 5px
+}
+
+#user-menu .dropdown-toggle::after {
+    font-size: 18px;
+    position: relative;
+    left: 45px;
+    top: 4px;
+    color: darkblue;
+}
+
+
+#user-menu a.dropdown-toggle.nav-link span {
+    position: absolute;
+    right: 50px;
+}

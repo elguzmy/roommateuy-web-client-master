@@ -1,0 +1,55 @@
+#profile-box .img-profile-box, #profile-box .head-profile-box, #profile-box .data-profile-box {
+    border-bottom: 1px dashed #ced4da;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0 auto!important;
+}
+
+#profile-box .img-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#profile-box p {
+    color: lightslategray;
+}
+
+#profile-box .data-profile-box {
+    padding-bottom: 15px;
+}
+
+#profile-box .btn-view-phone{
+    bottom: 20px;
+    right: 15px;
+    height: 40px;
+    background-color: rebeccapurple;
+    color: fixed;
+    position: fixed;
+    color: white;
+    border: rebeccapurple;
+    border-radius: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#profile-box .btn-message-phone{
+    bottom: 20px;
+    right: 10px;
+    height: 40px;
+    background-color: #778899;
+    color: fixed;
+    position: fixed;
+    color: white;
+    border: #778899;
+    border-radius: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#profile-box svg.svg-inline--fa.fa-comment.fa-w-16.fa-1x, #profile-box svg.svg-inline--fa.fa-phone.fa-w-16.fa-1x {
+    margin-left: 5px;
+}

@@ -1,0 +1,68 @@
+/* Quit buttom border and color on focus*/
+button.dropdown-item:focus { outline: none; background-color: transparent; }
+
+/* Quit form inputs background yellow  */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+button:focus, input:focus, textarea:focus, select:focus, .form-control:focus {
+    outline: none!important;
+    box-shadow: none!important;
+    border-color: transparent!important;
+    border: 1px solid #ced4da!important;
+}
+
+#app-root{
+    padding-top: 110px
+}
+
+li{
+    list-style: none!important;
+}
+
+.padding-0{
+    padding: 0!important;
+}
+
+.DateRangePicker{
+    z-index: 999;
+}
+
+
+/*Filter menu*/
+.sidenav * {transition: 0.3s;}
+.sidenav { height: 100%; width: 650px; position: fixed; z-index: 999; top: 93px; left: -650px; background-color: #FFF; transition: 0.5s; border-left: 0px solid #5bc4bf; margin-top: -3px; padding-top: 5px; }
+.sidenav h2 { margin-left: -32px; font-size: 20px; text-decoration: none; font-weight: 600; color: rebeccapurple!important; transition: 0.3s; padding-top: 10px; }
+.sidenav a { padding: 8px 8px 8px 8px; text-decoration: none; text-align: center; font-size: 18px; color: #FFF!important; display: block; transition: 0.3s; }
+.sidenav .closebtn {text-align: right; font-size: 50px; color: rebeccapurple !important; padding: 7px 10px; width: 50px; height: 50px; right: 4px; position: absolute; display: inline-block; cursor: pointer; }
+.sidenav .closebtn:hover { color: #666666 !important; }
+#sidenav-filter{ border-right: 2px solid rebeccapurple; top: 65px; border-left: 0!important; }
+#sidenav-filter::-webkit-scrollbar { display: none; }
+#sidenav-filter.open-filter .closebtn {display: block;}
+#span-sidenav-filters{ top: -3px; left: 650px; cursor: pointer; background-color: lightslategrey; width: 50px; height: 40px; background-position: 50% 25%; position: absolute; padding: 40px 0 0 0; text-align: center; }
+#span-sidenav-filters:hover{ background-color: #66339994; }
+#i-filter, #i-right{ padding-right: 5px; font-size: 28px; color: #FFF; }
+#i-right{ font-size: 19px!important; }
+#container-filter { line-height: 35px; vertical-align: middle; display: inline-block; position: relative; width: 100%; }
+#container-filter * { display: inline-block; line-height: 35px; vertical-align: middle; }
+#container-filter .Iconfilter.bgsvg { display: inline-block; width: 35px; height: 40px; margin: 0px 10px 5px 15px; position: relative; }
+#container-outside-filter{ position: relative; opacity: 1; transition: all ease-in-out .3s; }
+#outside-filter-span { font-size: 12px; color: white; }
+#container-outside-filter { position: absolute; left: 0; z-index: 0; margin-top: -2px; }
+#container-outside-filter.open-filter{ opacity: 0!important;}
+svg#icon-filter { top: -35px; position: relative; color: white; }
+#filter-content{ padding: 30px; }
+#section-filter button.btn.btn-primary.btn-save.btn.btn-secondary{ margin-left: 0px }
+/* end filter */
+
+/* MAP */
+.H_ib_body {
+    background-color: #2d2e2f;
+    text-align: center;
+    padding: 0;
+    border: rebeccapurple 1px solid;
+}
